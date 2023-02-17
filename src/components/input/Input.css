@@ -1,0 +1,140 @@
+.input {
+  width: 50%;
+  height: 50%;
+}
+
+.bill {
+  position: relative;
+  height: 24px;
+  left: 45px;
+  right: 89.45%;
+  top: 15px;
+
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #5e7a7d;
+}
+
+.bill_input {
+  position: relative;
+  left: 45px;
+  top: 10px;
+  background: #f3f9fa;
+  border-radius: 5px;
+  width: 379px;
+  height: 48px;
+  font-style: "Spaco Mono";
+  font-weight: 700;
+  font-size: 24px;
+  padding-right: 17px;
+  color: #00474b;
+}
+input {
+  text-align: right;
+  /* padding: 20px; */
+}
+
+input::placeholder {
+  text-align: left;
+  padding-left: 20px;
+  color: #9ebbbd;
+}
+
+::placeholder::after {
+  position: absolute;
+}
+
+.select_bill {
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+.input_boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 14px;
+  grid-row-gap: 16px;
+  margin-left: 45px;
+}
+
+.box {
+  width: 117px;
+  height: 48px;
+  border-radius: 5px;
+  background: #00474b;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35.54px;
+  text-align: center;
+  color: white;
+}
+
+.box:focus {
+  background: #9fe8df;
+}
+
+.custom_box {
+  width: 118px;
+  height: 48px;
+  box-sizing: border-box;
+  background: #f3f9fa;
+  border: 2px solid #26c2ae;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #00474b;
+}
+button {
+  border-style: none;
+  border: 0;
+}
+
+input {
+  border-color: #26c2ae #26c2ae #26c2ae #26c2ae;
+}
+
+.input_people {
+  position: relative;
+  margin-top: 6px;
+  left: 45px;
+  width: 379px;
+  height: 48px;
+  background: #f3f9fa;
+  border-radius: 5px;
+  width: 379px;
+  height: 48px;
+  font-style: "Spaco Mono";
+  font-weight: 700;
+  font-size: 24px;
+  padding-right: 17px;
+  color: #00474b;
+  margin-top: 40px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 35px;
+}
+.num_people {
+  margin-left: 45px;
+}
+.error {
+  text-align: right;
+  color: #e17457;
+  margin-right: 15px;
+  left: 215px;
+}

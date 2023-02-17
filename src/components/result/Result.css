@@ -1,0 +1,130 @@
+.result_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 413px;
+  height: 417px;
+  border-radius: 15px;
+  background: #00474b;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-top: 32px;
+}
+
+.tip {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+}
+
+.tip_text {
+  text-align: left;
+  margin-top: 56px;
+  margin-left: 40px;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+}
+
+.tip_amount {
+  text-align: right;
+  margin-top: 40px;
+  margin-right: 40px;
+  height: 71px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  /* identical to box height */
+
+  text-align: right;
+  letter-spacing: -1px;
+
+  color: #26c2ae;
+}
+
+.person {
+  position: absolute;
+  height: 19px;
+  left: 40px;
+  right: 34.69%;
+  top: 65px;
+
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #7f9d9f;
+}
+
+.total {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.total_text {
+  text-align: left;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  margin-top: 25px;
+  margin-left: 40px;
+  color: #ffffff;
+}
+.total_num {
+  text-align: right;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  /* identical to box height */
+  margin-right: 40px;
+  text-align: right;
+  letter-spacing: -1px;
+
+  color: #26c2ae;
+}
+
+.person2 {
+  position: absolute;
+  height: 19px;
+  margin-left: 40px;
+  margin-top: 180px;
+
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #7f9d9f;
+}
+
+.reset {
+  position: absolute;
+  height: 48px;
+  left: 11.11%;
+  right: 12.01%;
+  top: 330px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  background: #9fe8df;
+  color: #00474b;
+}
